@@ -5,7 +5,6 @@ import styles from "../styles/navigation.module.css";
 
 export default function Navigation() {
     const path = usePathname();
-    console.log(path);
     return (
         <nav className={styles.nav}>
             <ul>
